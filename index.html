@@ -1,0 +1,323 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta name="generator" content="HTML Tidy for Mac OS X (vers 31 October 2006 - Apple Inc. build 15.15), see www.w3.org">
+<title>IT4IT Reference Architecture, Version 2.0</title>
+<meta http-equiv='content-type' content='text/html; charset=us-ascii'>
+<link rel='stylesheet' type='text/css' href='style.css'>
+</head>
+<body>
+<table class="nav" summary="Header navigation table" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td class="nav" align="left" width="15%"><a accesskey="P" href="cprt.html"><b>&lt;</b> Previous</a></td>
+<td class="nav" align="center" width="70%"><a target="_parent" href="index.html">&#9650; Home</a></td>
+<td class="nav" align="right" width="15%"><a accesskey="N" href="front.html">Next <b>&gt;</b></a></td>
+</tr>
+</tbody>
+</table>
+<hr align="left" width="100%">
+<table class="nav" width="100%">
+<tbody>
+<tr class="nav">
+<td class="nav" align="left" width="33%"><a href="http://www.opengroup.org/" title="Goto The Open Group main site" target=
+"_parent"><img src="images/opengroupLogo.png" alt="The Open Group Web Site" border="0" height="59" width="240"></a></td>
+<td class="nav" align="center" width="33%"><font size="2">IT4IT&trade; Reference Architecture, Version 2.0 Technical Standard<br>
+<a href="cprt.html">Copyright</a> &copy; 2015 The Open Group</font></td>
+<td class="nav" align="right" width="33%"><a href="http://www.opengroup.org/it4it/" target="_parent" title=
+"Download a copy of the IT4IT Reference Architecture"><img src="Figures/image002.jpg" alt="Download IT4IT" title=
+"Download a copy of the IT4IT Reference Architecture" border="0" height="59" width="108"> <img src="images/download.gif" alt=
+"Download IT4IT" title="Download a copy of the IT4IT Reference Architecture" border="0"></a></td>
+</tr>
+</tbody>
+</table>
+<center>
+<hr>
+<a name="top"></a>
+Welcome to the IT4IT&trade; Reference Architecture, Version 2.0, <i>an Open Group Standard</i></center>
+<p class="FrontmatterHeading"><a name="_Toc371945137"></a><a name="pgfId-916404" id="pgfId-916404"></a><a name="pgfId-916445" id=
+"pgfId-916445"></a>Contents</p>
+<p class="MsoToc1"><a style="font-family: 'Times New Roman',serif; color: blue; text-decoration: none" href=
+"front.html#_preface">Preface</a></p>
+<p class="MsoToc2"><a style="font-family: 'Times New Roman',serif; color: blue; text-decoration: none" href="front.html#_tog">The
+Open Group</a></p>
+<p class="MsoToc2"><a style="font-family: 'Times New Roman',serif; color: blue; text-decoration: none" href="front.html#_forum">The
+IT4IT Forum</a></p>
+<p class="MsoToc2"><a style="font-family: 'Times New Roman',serif; color: blue; text-decoration: none" href=
+"front.html#_thisdoc">This Document</a></p>
+<p class="MsoToc2"><a style="font-family: 'Times New Roman',serif; color: blue; text-decoration: none" href=
+"front.html#_relstds">Related Industry Standards</a></p>
+<p class="MsoToc2"><a style="font-family: 'Times New Roman',serif; color: blue; text-decoration: none" href=
+"front.html#_trademarks">Trademarks</a></p>
+<p class="MsoToc2"><a style="font-family: 'Times New Roman',serif; color: blue; text-decoration: none" href=
+"front.html#_acknowledgenets">Acknowledgements</a></p>
+<p class="MsoToc2"><a style="font-family: 'Times New Roman',serif; color: blue; text-decoration: none" href=
+"front.html#_references">Referenced Documents</a></p>
+<p class="MsoToc1"><a style="font-family: 'Times New Roman',serif; color: blue; text-decoration: none" href=
+"chap01.html#_Toc431202706">1 Introduction</a></p>
+<p class="MsoToc2"><a style="font-family: 'Times New Roman',serif; color: blue; text-decoration: none" href=
+"chap01.html#_Toc431202707">1.1 Objective</a></p>
+<p class="MsoToc2"><a href="chap01.html/&quot;#_Toc431202708&quot;" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">1.2 Overview</a></p>
+<p class="MsoToc2"><a href="chap01.html#_Toc431202709" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">1.3 Conformance</a></p>
+<p class="MsoToc2"><a href="chap01.html#_Toc431202710" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">1.4 Normative References</a></p>
+<p class="MsoToc2"><a href="chap01.html#_Toc431202711" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">1.5 Terminology</a></p>
+<p class="MsoToc2"><a href="chap01.html#_Toc431202712" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">1.6 Future Directions</a></p>
+<p class="MsoToc1"><a href="chap02.html#_Toc431202713" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">2 Definitions</a></p>
+<p class="MsoToc2"><a href="chap02.html#_Toc431202714" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">2.1 Service Lifecycle Data Object (Data Object)</a></p>
+<p class="MsoToc2"><a href="chap02.html#_Toc431202715" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">2.2 IT Value Chain</a></p>
+<p class="MsoToc2"><a href="chap02.html#_Toc431202716" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">2.3 Value Chain</a></p>
+<p class="MsoToc2"><a href="chap02.html#_Toc431202717" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">2.4 Value Stream</a></p>
+<p class="MsoToc2"><a href="chap02.html#_Toc431202718" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">2.5 Functional Component</a></p>
+<p class="MsoToc2"><a href="chap02.html#_Toc431202719" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">2.6 Service Model Backbone Data Object</a></p>
+<p class="MsoToc2"><a href="chap02.html#_Toc431202720" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">2.7 Relationship</a></p>
+<p class="MsoToc2"><a href="chap02.html#_Toc431202721" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">2.8 System of Record</a></p>
+<p class="MsoToc1"><a href="chap03.html#_Toc431202722" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">3 Overview</a></p>
+<p class="MsoToc2"><a href="chap03.html#_Toc431202723" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">3.1 What is the IT Value Chain?</a></p>
+<p class="MsoToc2"><a href="chap03.html#_Toc431202724" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">3.2 IT Value Chain and IT4IT Reference
+Architecture</a></p>
+<p class="MsoToc2"><a href="chap03.html#_Toc431202725" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">3.3 IT Value Streams</a></p>
+<p class="MsoToc3"><a href="chap03.html#_Toc431202726" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">3.3.1 Strategy to Portfolio</a></p>
+<p class="MsoToc3"><a href="chap03.html#_Toc431202727" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">3.3.2 Requirement to Deploy</a></p>
+<p class="MsoToc3"><a href="chap03.html#_Toc431202728" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">3.3.3 Request to Fulfill</a></p>
+<p class="MsoToc3"><a href="chap03.html#_Toc431202729" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">3.3.4 Detect to Correct</a></p>
+<p class="MsoToc2"><a href="chap03.html#_Toc431202730" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">3.4 IT4IT Reference Architecture</a></p>
+<p class="MsoToc3"><a href="chap03.html#_Toc431202731" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">3.4.1 Service Model</a></p>
+<p class="MsoToc3"><a href="chap03.html#_Toc431202732" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">3.4.2 Information Model</a></p>
+<p class="MsoToc3"><a href="chap03.html#_Toc431202733" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">3.4.3 Functional Model</a></p>
+<p class="MsoToc3"><a href="chap03.html#_Toc431202734" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">3.4.4 Integration Model</a></p>
+<p class="MsoToc1"><a href="chap04.html#_Toc431202735" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">4 IT4IT Core</a></p>
+<p class="MsoToc2"><a href="chap04.html#_Toc431202736" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">4.1 Introduction</a></p>
+<p class="MsoToc2"><a href="chap04.html#_Toc431202737" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">4.2 IT4IT Abstraction Levels and Class Structure</a></p>
+<p class="MsoToc3"><a href="chap04.html#_Toc431202738" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">4.2.1 IT4IT Abstractions</a></p>
+<p class="MsoToc3"><a href="chap04.html#_Toc431202739" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">4.2.2 Concepts at Level 1: End-to-End Overview</a></p>
+<p class="MsoToc3"><a href="chap04.html#_Toc431202740" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">4.2.3 Level 1 Reference Architecture Model</a></p>
+<p class="MsoToc3"><a href="chap04.html#_Toc431202741" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">4.2.4 Concepts at Level 2: Value Stream
+Documentation</a></p>
+<p class="MsoToc3"><a href="chap04.html#_Toc431202742" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">4.2.5 Level 2 Reference Architecture Diagram
+(Example)</a></p>
+<p class="MsoToc3"><a href="chap04.html#_Toc431202743" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">4.2.6 Concepts at Level 3: Vendor-Independent
+Architecture</a></p>
+<p class="MsoToc3"><a href="chap04.html#_Toc431202744" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">4.2.7 Level 3 Reference Architecture Diagram
+(Example)</a></p>
+<p class="MsoToc3"><a href="chap04.html#_Toc431202745" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">4.2.8 Concepts at Levels 4 and 5 &ndash; Vendor
+Extensions</a></p>
+<p class="MsoToc1"><a href="chap05.html#_Toc431202746" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">5 Strategy to Portfolio (S2P) Value Stream</a></p>
+<p class="MsoToc2"><a href="chap05.html#_Toc431202747" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">5.1 Objectives</a></p>
+<p class="MsoToc2"><a href="chap05.html#_Toc431202748" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">5.2 Business Value Proposition</a></p>
+<p class="MsoToc2"><a href="chap05.html#_Toc431202749" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">5.3 Key Performance Indicators</a></p>
+<p class="MsoToc2"><a href="chap05.html#_Toc431202750" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">5.4 Value Stream Definition</a></p>
+<p class="MsoToc3"><a href="chap05.html#_Toc431202751" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">5.4.1 Enterprise Architecture Functional
+Component</a></p>
+<p class="MsoToc3"><a href="chap05.html#_Toc431202752" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">5.4.2 Policy Functional Component</a></p>
+<p class="MsoToc3"><a href="chap05.html#_Toc431202753" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">5.4.3 Proposal Functional Component</a></p>
+<p class="MsoToc3"><a href="chap05.html#_Toc431202754" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">5.4.4 Portfolio Demand Functional Component</a></p>
+<p class="MsoToc3"><a href="chap05.html#_Toc431202755" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">5.4.5 Service Portfolio Functional Component</a></p>
+<p class="MsoToc3"><a href="chap05.html#_Toc431202756" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">5.4.6 IT Investment Portfolio Auxiliary Functional
+Component</a></p>
+<p class="MsoToc1"><a href="chap06.html#_Toc431202757" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">6 Requirement to Deploy (R2D) Value Stream</a></p>
+<p class="MsoToc2"><a href="chap06.html#_Toc431202758" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">6.1 Objectives</a></p>
+<p class="MsoToc2"><a href="chap06.html#_Toc431202759" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">6.2 Business Value Proposition</a></p>
+<p class="MsoToc2"><a href="chap06.html#_Toc431202760" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">6.3 Key Performance Indicators</a></p>
+<p class="MsoToc2"><a href="chap06.html#_Toc431202761" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">6.4 Value Stream Definition</a></p>
+<p class="MsoToc3"><a href="chap06.html#_Toc431202762" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">6.4.1 Project Functional Component</a></p>
+<p class="MsoToc3"><a href="chap06.html#_Toc431202763" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">6.4.2 Requirement Functional Component</a></p>
+<p class="MsoToc3"><a href="chap06.html#_Toc431202764" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">6.4.3 Service Design Functional Component</a></p>
+<p class="MsoToc3"><a href="chap06.html/&quot;#_Toc431202765&quot;" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">6.4.4 Source Control Functional Component</a></p>
+<p class="MsoToc3"><a href="chap06.html#_Toc431202766" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">6.4.5 Build Functional Component</a></p>
+<p class="MsoToc3"><a href="chap06.html#_Toc431202767" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">6.4.6 Build Package Functional Component</a></p>
+<p class="MsoToc3"><a href="chap06.html#_Toc431202768" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">6.4.7 Release Composition Functional Component</a></p>
+<p class="MsoToc3"><a href="chap06.html/&quot;#_Toc431202769&quot;" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">6.4.8 Test Functional Component</a></p>
+<p class="MsoToc3"><a href="chap06.html#_Toc431202770" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">6.4.9 Defect Functional Component</a></p>
+<p class="MsoToc1"><a href="chap07.html#_Toc431202771" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">7 Request to Fulfill (R2F) Value Stream</a></p>
+<p class="MsoToc2"><a href="chap07.html#_Toc431202772" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">7.1 Objectives</a></p>
+<p class="MsoToc2"><a href="chap07.html#_Toc431202773" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">7.2 Business Value Proposition</a></p>
+<p class="MsoToc2"><a href="chap07.html#_Toc431202774" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">7.3 Key Performance Indicators</a></p>
+<p class="MsoToc2"><a href="chap07.html#_Toc431202775" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">7.4 Value Stream Definition</a></p>
+<p class="MsoToc3"><a href="chap07.html#_Toc431202776" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">7.4.1 Engagement Experience Portal (Secondary Functional
+Component)</a></p>
+<p class="MsoToc3"><a href="chap07.html#_Toc431202777" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">7.4.2 Offer Consumption Functional Component</a></p>
+<p class="MsoToc3"><a href="chap07.html#_Toc431202778" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">7.4.3 Offer Management Functional Component</a></p>
+<p class="MsoToc3"><a href="chap07.html#_Toc431202779" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">7.4.4 Catalog Composition Functional Component</a></p>
+<p class="MsoToc3"><a href="chap07.html#_Toc431202780" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">7.4.5 Request Rationalization Functional
+Component</a></p>
+<p class="MsoToc3"><a href="chap07.html#_Toc431202781" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">7.4.6 Fulfillment Execution Functional Component</a></p>
+<p class="MsoToc3"><a href="chap07.html#_Toc431202782" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">7.4.7 Usage Functional Component</a></p>
+<p class="MsoToc3"><a href="chap07.html#_Toc431202783" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">7.4.8 Chargeback/Showback Functional Component</a></p>
+<p class="MsoToc3"><a href="chap07.html#_Toc431202784" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">7.4.9 Knowledge &amp; Collaboration Supporting
+Function</a></p>
+<p class="MsoToc1"><a href="chap08.html#_Toc431202785" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">8 Detect to Correct (D2C) Value Stream</a></p>
+<p class="MsoToc2"><a href="chap08.html#_Toc431202786" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">8.1 Objectives</a></p>
+<p class="MsoToc2"><a href="chap08.html#_Toc431202787" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">8.2 Business Value Proposition</a></p>
+<p class="MsoToc2"><a href="chap08.html#_Toc431202788" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">8.3 Key Performance Indicators</a></p>
+<p class="MsoToc2"><a href="chap08.html#_Toc431202789" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">8.4 Value Stream Definition</a></p>
+<p class="MsoToc3"><a href="chap08.html#_Toc431202790" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">8.4.1 Service Monitoring Functional Component</a></p>
+<p class="MsoToc3"><a href="chap08.html#_Toc431202791" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">8.4.2 Event Functional Component</a></p>
+<p class="MsoToc3"><a href="chap08.html#_Toc431202792" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">8.4.3 Incident Functional Component</a></p>
+<p class="MsoToc3"><a href="chap08.html#_Toc431202793" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">8.4.4 Problem Functional Component</a></p>
+<p class="MsoToc3"><a href="chap08.html#_Toc431202794" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">8.4.5 Change Control Functional Component</a></p>
+<p class="MsoToc3"><a href="chap08.html#_Toc431202795" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">8.4.6 Configuration Management Functional
+Component</a></p>
+<p class="MsoToc3"><a href="chap08.html#_Toc431202796" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">8.4.7 Diagnostics &amp; Remediation Functional
+Component</a></p>
+<p class="MsoToc3"><a href="chap08.html#_Toc431202797" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">8.4.8 Service Level Functional Component</a></p>
+<p class="MsoToc3"><a href="chap08.html#_Toc431202798" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">8.4.9 Other IT Operations Areas</a></p>
+<p class="MsoToc1"><a href="apdxa.html#_Toc431202799" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">A Rationale (Informative)</a></p>
+<p class="MsoToc2"><a href="apdxa.html#_Toc431202800" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">A.1 Introduction</a></p>
+<p class="MsoToc2"><a href="apdxa.html#_Toc431202801" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">A.2 Definitions</a></p>
+<p class="MsoToc2"><a href="apdxa.html#_Toc431202802" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">A.3 Overview</a></p>
+<p class="MsoToc3"><a href="apdxa.html#_Toc431202803" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">A.3.1 Business Drivers for an Improved IT Operating
+Model</a></p>
+<p class="MsoToc3"><a href="apdxa.html#_Toc431202804" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">A.3.2 The IT Value Chain</a></p>
+<p class="MsoToc2"><a href="apdxa.html#_Toc431202805" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">A.4 IT4IT Core</a></p>
+<p class="MsoToc3"><a href="apdxa.html#_Toc431202806" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">A.4.1 Value Streams</a></p>
+<p class="MsoToc3"><a href="apdxa.html#_Toc431202807" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">A.4.2 Functional Components</a></p>
+<p class="MsoToc2"><a href="apdxa.html#_Toc431202808" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">A.5 Strategy to Portfolio Value Stream</a></p>
+<p class="MsoToc3"><a href="apdxa.html#_Toc431202809" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">A.5.1 Related Standards, Frameworks, and
+Guidance</a></p>
+<p class="MsoToc2"><a href="apdxa.html#_Toc431202810" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">A.6 Requirement to Deploy Value Stream</a></p>
+<p class="MsoToc3"><a href="apdxa.html#_Toc431202811" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">A.6.1 Related Standards, Frameworks, and
+Guidance</a></p>
+<p class="MsoToc2"><a href="apdxa.html#_Toc431202812" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">A.7 Request to Fulfill Value Stream</a></p>
+<p class="MsoToc3"><a href="apdxa.html#_Toc431202813" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">A.7.1 Related Standards, Frameworks, and
+Guidance</a></p>
+<p class="MsoToc2"><a href="apdxa.html#_Toc431202814" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">A.8 Detect to Correct Value Stream</a></p>
+<p class="MsoToc3"><a href="apdxa.html#_Toc431202815" style=
+"font-family: 'Times New Roman',serif; color: blue; text-decoration: none">A.8.1 Related Standards, Frameworks, and
+Guidance</a></p>
+<p class="MsoToc1"><a style="font-family: 'Times New Roman',serif; color: blue; text-decoration: none" href="apdxb.html">Acronyms
+and Abbreviations</a></p>
+<p><br>
+<br>
+<a href="#top">return to top of page</a><br></p>
+<hr>
+<p class="UnnumberedHeading"><a name="Downloads" id="Downloads"></a>Downloads</p>
+<p class="Body">Downloads of the IT4IT&trade; Reference Architecture, Version 2.0 documentation, are available under license from
+the <a href="http://www.opengroup.org/it4it">IT4IT<font face="Times New Roman">&trade;</font></a> <a target="_parent" href=
+"http://www.opengroup.org/it4it">information web site</a>. The license is free to any organization wishing to use IT4IT entirely
+for internal purposes (for example, to develop an information system architecture for use within that organization). A book is also
+available (in pdf) from The Open Group Bookstore as document <a href=
+"http://www.opengroup.org/bookstore/catalog/c155.htm">C155</a>.</p>
+<hr>
+<center><font size="2">Copyright &copy; 2015 The Open Group, All Rights Reserved<br>
+IT4IT is a trademark of The Open Group.</font></center>
+<hr>
+<table summary="Header navigation table" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr>
+<td align="left" width="15%"><a accesskey="P" href="cprt.html"><b>&lt;</b> Previous</a></td>
+<td align="center" width="70%"><a target="_parent" href="index.html">&#9650; Home</a></td>
+<td align="right" width="15%"><a accesskey="N" href="front.html">Next <b>&gt;</b></a></td>
+</tr>
+</tbody>
+</table>
+<hr align="left" width="100%">
+</body>
+</html>
